@@ -1,0 +1,174 @@
+.navbar {
+    font-family: edita, serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.klogo {
+    background-color: rgb(51, 127, 99, 0.6);
+}
+
+.tagline {
+    display: inline-block;
+    padding-left: 30px;
+    color: #FFF4D5;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.navbar-brand img{
+    width: 20%;
+    height: auto;
+}
+
+.nav-item {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.nav-link {
+    color: #DEDEDE !important;
+    font-size: 20pt;
+}
+
+.jumbotron {
+    background-image: url("../images/troub.png");
+    background-size: cover;
+    margin-top: -175px;
+    height: 650px;
+}
+
+.knav {
+    background-color: rgb(144, 55, 97, 0.6);
+    margin-top: -88px;
+    position: -webkit-sticky; /* Safari */
+    position: sticky !important;
+    top: 0;
+    z-index: 10000;
+}
+
+.navbar-toggler {
+    margin-left: auto;
+    border-color: #DEDEDE !important;
+}
+
+.container {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.card-img-top {
+    background-color: #FFFAEC;
+}
+
+.card {
+    border: none !important;
+}
+
+.card-body {
+    background-color: #FFF5DA;
+}
+
+.card-title {
+    color:  #903761;
+    font-family: edita, serif;
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+.card-text {
+    color: #337f63;
+    font-family: whitman, serif;
+    font-size: 12pt;
+    font-weight: 500;
+}
+
+.btn-primary {
+    background-color: #903761 !important;
+    border-color: #903761 !important;
+    font-family: edita, serif;
+    font-size: 15pt !important;
+    font-weight: bold !important;
+}
+
+.skillz {
+    text-align: center;
+    color: #337f63;
+    font-family: edita, serif;
+    font-weight: bold;
+    margin: 50px auto 25px;
+}
+
+.table {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90% !important;
+}
+
+.toprow {
+    background-color: #FFFDF6;
+    text-align: center;
+    color: #337f63;
+    font-family: edita, serif;
+    font-weight: bold;
+    font-size: 20pt;
+}
+
+.cell {
+    font-family: whitman, serif;
+    color: #903761;
+    font-size: 12pt;
+}
+
+.mellowyellow {
+    background-color: #FFFAEA;
+}
+
+.yellow {
+    background-color: #FFF5D8;
+}
+
+.footer {
+    background-color: #337f63;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.poem {
+    display: inline-block;
+}
+
+footer p {
+    font-family: edita, serif;
+    font-size: 15pt;
+    color: #DEDEDE; 
+}
+
+@media (min-width: 992px) {
+    .knav {
+        margin-top: -104px;
+    }
+    .card {
+        -ms-flex-direction: row !important;
+        flex-direction: row !important;
+        height: 225px;
+    }
+
+    .card img {
+        width: 225px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .card {
+        -ms-flex-direction: row !important;
+        flex-direction: row !important;
+        height: 250px;
+    }
+    
+    .card img {
+        width: 250px;
+    }
+}
